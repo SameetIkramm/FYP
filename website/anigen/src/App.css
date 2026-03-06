@@ -1,0 +1,24 @@
+/* HOME */
+#home{
+  /* backgroud: #F6F2D4;
+  background: linear-gradient(to bottom, #95D1CC, #22577E, #5584AC); */
+  background: rgb(0,101,219);
+  background: linear-gradient(99deg, rgb(0,101,219) 50%, rgba(0,212,255,1) 100%);
+  font-family: 'Jost', sans-serif;
+  min-height: 500px;
+}
+
+/*  Card */
+.card{
+   transition: all 0.5s ease;
+}
+.card:hover{
+  cursor:pointer;
+  box-shadow: 0 .5rem 1rem rgb(0,0,.15);
+}
+
+/* FOOTER */
+.footer{
+  background: rgb(0,101,219);
+  background: linear-gradient(99deg, rgb(0,101,219) 40%, rgba(0,212,255,1) 100%);
+}
